@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+  background-color: #ffffff;
+  color: #474A5C;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 30px 20% 30px 20%;
+  /* Add 30px margins to the top and bottom, and 20% margins to the left and right */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+}
+
+/* Center the container vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Use min-height instead of height */
+}
+
+/* Style the logo */
+.logo {
+  max-width: 100%;
+}
+
+/* Style the title */
+.title {
+  color: #252837;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the body copy */
+.body-copy {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the quoted text */
+.content blockquote {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  /* Adjust the font size as needed */
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+  /* Add padding for better readability */
+  border-left: 4px solid #F8C625;
+  /* Add a left border for emphasis */
+}
+
+/* Style the list of practices */
+.practice-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Style the upload button */
+.upload-button {
+  background-color: #F8C625;
+  color: #022859;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the footer link */
+.footer-link {
+  color: #474A5C;
+  text-decoration: none;
+}
+
+/* Add underline on hover for the footer link */
+.footer-link:hover {
+  text-decoration: underline;
+}
